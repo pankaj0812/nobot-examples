@@ -3,7 +3,7 @@ console.log(`The process id is ${process.pid}`);
 //     console.log(`The process code is ${code}`);
 // });
 process.stdout.write('Hello, I am writing to standard output\n');
-process.stdout.write(`Current working directory ${process.cwd()}`);
+process.stdout.write(`Current working directory ${process.cwd()} \n`);
 console.log(`The process uptime is ${process.uptime()} seconds`);
 process.stdout.write('Type something and then hit enter: \n');
 process.stdin.setEncoding('utf-8');
